@@ -57,7 +57,7 @@
     list-style: none;
     text-align: left;
     font-weight: 100;
-    max-width: 30%;
+    max-width: 75%;
   }
   .timeline h1 {
     font-family: 'Saira', sans-serif;
@@ -94,7 +94,8 @@
     top: 0;
   }
   .timeline .event:before {
-    left: -217.5px;
+    left: 0;
+    top:-40px;
     color: rgba(255, 255, 255, 0.4);
     content: attr(data-date);
     text-align: right;
