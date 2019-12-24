@@ -12,6 +12,7 @@ function App() {
     ]
     return (
         <div id="timeline-content">
+            <h1>🐣 - 🐨 Neler yaptık, neler yapıyoruz...</h1>
             <ul className="timeline">
                 {
                     data.map((i, t) =>
