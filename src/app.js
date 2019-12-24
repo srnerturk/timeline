@@ -1,8 +1,13 @@
 import React from 'react'
 import Timeline from './components/timeline';
 function App() {
+    const cdnUrl = "https://raw.githubusercontent.com/srnerturk/timeline/master/src/assets/";
     const data = [
-        { date: "14 Ağustos 2019", text: "bla bla bla", image: "", title: "Merhaba Dünya" }
+        { date: "14 Ağustos 2019", text: "o ilk an", image: cdnUrl + "1.jpg", title: "Herşeye Merhaba!" },
+        { date: "15 Ağustos 2019", text: "ilk like'ı atma çabalaları..", image: cdnUrl + "2.jpg", title: "İlk Like!" },
+        { date: "15 Ağustos 2019", text: "Parantez Severiz!", image: cdnUrl + "3.jpg", title: "İlk Parantez!" },
+        { date: "16 Ağustos 2019", text: "Utangaç çocuk numarayı istiyor, kızın paketi bitmiş yazık, püüü!", image: cdnUrl + "4.jpg", title: "Burası kasıyor Whatsapp var mı?" }
+
     ]
     return (
         <div id="timeline-content">
