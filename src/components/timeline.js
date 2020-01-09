@@ -6,6 +6,7 @@ function Timeline({ item }) {
             <h3>{item.title}</h3>
             <img src={item.image} />
             <p>{item.text}</p>
+            <h5>{item.ad}</h5>
         </li>
     )
 }
